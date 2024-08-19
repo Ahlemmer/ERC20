@@ -61,5 +61,4 @@ contract OurTokenTest is Test, ZkSyncChainChecker {
         assertEq(ourToken.balanceOf(bob), BOB_STARTING_AMOUNT - transferAmount);
     }
 
-    // can you get the coverage up?
 }
